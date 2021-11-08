@@ -1,0 +1,11 @@
+.radio {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.radio > div {
+  margin-right: 10px;
+}
