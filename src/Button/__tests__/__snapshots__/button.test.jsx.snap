@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button 中按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        中按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 主题按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__primary lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        主题按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 加载按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="iconfont icon-loading lumu-btn-loading"
+      />
+      <span
+        class="lumu-btn-text"
+      >
+        加载按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 图标按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-icon"
+      >
+        😀
+      </span>
+      <span
+        class="lumu-btn-text"
+      >
+        图标按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 圆形按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__round"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        圆形按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 块级按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius lumu-btn-block"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        块级按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 大按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__lg lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        大按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 小按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__sm lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        小按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 普通按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        普通按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 矩形按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__rect"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        矩形按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
+
+exports[`Button 禁止按钮 1`] = `
+<DocumentFragment>
+  <button
+    class="lumu-btn lumu-btn-size__md lumu-btn-theme__default lumu-btn-shape__radius lumu-btn-disabled"
+    type="button"
+  >
+    <div
+      class="lumu-btn-content"
+    >
+      <span
+        class="lumu-btn-text"
+      >
+        禁止按钮
+      </span>
+    </div>
+  </button>
+</DocumentFragment>
+`;
