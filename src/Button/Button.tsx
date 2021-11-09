@@ -16,7 +16,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
     loading = false,
     disabled = false,
     onClick,
-    children
+    children,
   } = props;
 
   const className = useMemo(() => {
@@ -26,36 +26,37 @@ export const Button: React.FC<ButtonProps> = (props) => {
       `${btnPrefix}-theme__${type}`,
       `${btnPrefix}-shape__${shape}`,
       {
-        // [`${btnPrefix}-ghost`]: ghost,
         [`${btnPrefix}-block`]: block,
         [`${btnPrefix}-disabled`]: disabled,
-      }
+      },
     );
   }, [size, type, block, shape, disabled]);
 
-  const handleClick = useCallback((e) => {
-    if (loading || disabled) return;
-    onClick?.(e);
-  }, [onClick, loading, disabled])
+  const handleClick = useCallback(
+    (e) => {
+      if (loading || disabled) return;
+      onClick?.(e);
+    },
+    [onClick, loading, disabled],
+  );
 
   return (
-    <button
-      type="button"
-      onClick={handleClick}
-      className={className}
-    >
+    <button type="button" onClick={handleClick} className={className}>
       <div className={`${btnPrefix}-content`}>
-        {
-          loading && (
-            <span className={classNames(
+        {loading && (
+          <span
+            className={classNames(
               'iconfont',
               'icon-loading',
-              `${btnPrefix}-loading`
-            )}></span>
-          )
-        }
+              `${btnPrefix}-loading`,
+            )}
+          ></span>
+        )}
+        {icon && !loading && (
+          <span className={`${btnPrefix}-icon`}>{icon}</span>
+        )}
         <span className={`${btnPrefix}-text`}>{children}</span>
       </div>
     </button>
-  )
+  );
 };
