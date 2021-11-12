@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // @ts-ignore
-import { Button } from 'lumu-mobile-ui';
+import { Button, Icon } from 'lumu-mobile-ui';
 import './index.css';
 
 const SIZE_CONFIG = [
@@ -150,7 +150,7 @@ export default () => {
           shape={shape}
           loading={loading}
           disabled={disabled}
-          icon={icon ? <span>🤮</span> : null}
+          icon={icon ? <Icon type="icon-wechat" /> : null}
         >
           {text}
         </Button>
