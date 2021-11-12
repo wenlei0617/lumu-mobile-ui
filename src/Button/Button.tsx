@@ -2,6 +2,7 @@ import { getClsPrefix } from '../utils/utils';
 import React, { useCallback, useMemo } from 'react';
 import classNames from 'classnames';
 import { ButtonProps } from './interface';
+import Icon from '../icon/index';
 import './style/index.less';
 
 const btnPrefix = getClsPrefix('btn');
@@ -44,13 +45,7 @@ export const Button: React.FC<ButtonProps> = (props) => {
     <button type="button" onClick={handleClick} className={className}>
       <div className={`${btnPrefix}-content`}>
         {loading && (
-          <span
-            className={classNames(
-              'iconfont',
-              'icon-loading',
-              `${btnPrefix}-loading`,
-            )}
-          ></span>
+          <Icon type="icon-loading" className={`${btnPrefix}-loading`} />
         )}
         {icon && !loading && (
           <span className={`${btnPrefix}-icon`}>{icon}</span>
