@@ -1,0 +1,25 @@
+@import '../../style/common.less';
+
+@icon-prefix-cls: ~'@{lumu-prefix}-icon';
+
+.@{icon-prefix-cls} {
+  font-size: 22px;
+  color: inherit;
+  line-height: 0;
+  vertical-align: -0.15em;
+  &-spin svg {
+    animation: rotate linear 1s infinite;
+    font-size: inherit;
+    use {
+      fill: currentColor;
+    }
+  }
+  @keyframes rotate {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+}
